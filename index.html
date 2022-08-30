@@ -11,20 +11,30 @@
       href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">  
     <title>Product Home Page</title>
+    <link rel="stylesheet" href="./css/index.css">
   </head>
   <body>
+    <div class="container">
     <nav>
+     <div class="logo">
       <img src="./images/logo.svg" alt="logo" />
+    </div> 
       <div class="nav-items">
-        <h5 class="nav-item active-item">Home</h5>
-        <h5 class="nav-item">Product</h5>
-        <h5 class="nav-item">Price</h5>
-        <h5 class="nav-item">About</h5>
+        <h5 class="nav-item active-item"><a href="#">Home</a></h5>
+        <h5 class="nav-item"><a href="">Product</a></h5>
+        <h5 class="nav-item"><a href="">Price</a></h5>
+        <h5 class="nav-item"><a href="">About</a></h5>
       </div>
-      <img src="./images/actions.svg" alt="actions" style="width: 230px;" />
+     <div class="header-icon">
+      <img src="./images/actions.svg" alt="actions" />
+    </div> 
+      <div class="nav-menu-icon" >
+        <i class="fa fa-bars color-white" aria-hidden="true" ></i>
+      </div>
     </nav>
-    <div class="intro-section d-flex">
+    <div class="intro-section">
       <div class="left-section">
         <h3>
           New Product
@@ -39,7 +49,7 @@
             <img src="./images/plus.svg" alt="plus" /> FM Function
           </h5>
           <h5 class="sub-headline">
-            <img src="./images/plus.svg" alt="plus" /> Up To 11 Hours Playtime
+           <img src="./images/plus.svg" alt="plus" /> Up To 11 Hours Playtime
           </h5>
         </div>
         <p class="text">
@@ -60,15 +70,16 @@
             <h4>Discount</h4>
             <h1>50%</h1>
           </div>
-          <img src="./images/headphones.jpg" alt="headphone"  />
+          <div class="headphon"><img src="./images/headphones.jpg" alt="headphone"/></div> 
         </div>
         <div class="dots">
           <div class="dot yellow-dot"></div>
           <div class="dot tomato-dot"></div>
           <div class="dot black-dot"></div>
         </div>
-        <button class="action-btn">Add to chart</button>
+        <button class="action-btn btn-mr">Add to chart</button>
       </div>
     </div>
+  </div>
   </body>
 </html>
